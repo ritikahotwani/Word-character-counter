@@ -6,19 +6,25 @@ function About() {
 
         <>
 
-            <h1 className="font-bold text-xl mt-11"> About the app</h1>
-            <div className="relative text-lg flex flex-col mt-3">
+            <h1 className="font-bold text-xl mt-11 text-center"> About the app</h1>
+<div className="  isolation: isolate ">
+            <div className=" relative text-lg flex flex-col mt-3 text-center ">
+
                 <p>This is a React App which counts the words and characters in a text as you start typing. </p>
                 <p>Styled using Tailwind CSS.</p>
             
-            <h1 className="font-bold text-xl mt-9"> Source Code</h1>
+            <h1 className="font-bold text-xl mt-9 "> Source Code</h1>
             <div className="mt-3">
-                <a  href="">ClickMe!</a>
-            </div>
+                <a  target="_blank" href="https://github.com/ritikahotwani/Word-character-counter">ClickMe!</a>
+                    </div>
 </div>
 
-        <footer className="border-t text-l m-auto  min-w-[100%] flex flex-col  bottom-0 absolute -z-10 ">
-                <h2 className="text-xl t  my-3 text-[#F2921D] darkmode-ignore">Tally- Word Character Counter</h2>
+</div>
+
+        <footer className="border-t text-l m-auto text-center min-w-[100%] flex flex-col  bottom-0 absolute -z-10 ">
+               <div className=" text-[#F2921D]">
+                    <h2 className="  text-xl t  my-3  ">Tally- Word Character Counter</h2>
+                    </div>
                 <p>Greetings, I'm a computer science student studying for my bachelor's degree at Mumbai University.
                 I am passionate about web applications. Thank you for visiting.</p>
                
